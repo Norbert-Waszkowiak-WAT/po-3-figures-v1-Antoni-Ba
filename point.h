@@ -6,16 +6,16 @@ using namespace std;
 
 
 class Point{
-    private:
+private:
     double x;
     double y;
 public:
-Point(double x, double y);
-bool equals(Point &other);
-string toString();
-void flip();
-void move(double x, double y);
-double getX();
-double geyY();
+    Point(double x, double y);
+    bool equals(const Point &other);
+    string toString();
+    void flip();
+    void move(double x, double y);
+    double getX();
+    double getY();
 };
 #endif
